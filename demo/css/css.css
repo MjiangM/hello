@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #07cbc9;
+}
+header .box{
+    width: 1200px;
+    height: 48px;
+    margin: 0 auto;
+    position: relative;
+    top: 16px;
+}
+header .box .logo{
+    float: left;
+    font:bold 35px 'Forte';
+    text-align: center;
+    line-height: 48px;
+    color:white;
+}
+header .box .menu{
+     float: right;
+
+     text-align: center;
+     line-height: 48px;
+     color:white;
+     font-size: 16px;
+}
+header .box .menu ul li{
+    float:left;
+    margin-left: 20px;
+    
+}
+header .banner{
+    margin-top: 32px;
+    position: relative;
+}
+header .banner .bgp{
+    width: 100%;
+    height: 600px;
+}
+header .banner .fugai{
+    background-color:rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top:0px;
+    width: 100%;
+    height: 600px;
+    
+}
+header .banner form{
+    position: absolute;
+    top:100px;
+    left:50%;
+    margin-left:-252px;
+    width: 504px;
+    height: 360px;
+    text-align: center;
+}
+header .banner form .btn1{
+    
+    border: 2px solid #808080;
+    background: none;
+    margin-bottom: 20px;
+}
+header .banner form .btn{
+    width: 500px;
+    height: 36px;
+}
+header .banner form .Commentbtn{
+    height: 110px;
+    width: 500px;
+}
+header .banner form .sendbtn{
+     width: 200px;
+     height: 40px;
+     color: #808080;
+     cursor: pointer;
+}
+footer{
+    width: 1200px;
+    height: 715px;
+    margin: 600px auto;
+}
+footer .info{
+    width: 1200px;
+    height: 160px;
+    text-align: center;
+    position: relative;
+}
+footer .info h1{
+     font-size: 32px;
+     padding-top: 30px;
+     margin-bottom: 10px;
+}
+footer .info .line{
+    width: 60px;
+    height: 3px;
+    background-color: #07cbc9;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+}
+footer .info p{
+    width: 500px;
+    height: 70px;
+    color: gray;
+    font-size: 14px;
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: 20px;
+}
+footer .cont{
+    width: 1180px;
+    height: 435px;
+    padding-top: 30px;
+}
+footer .cont .box{
+    float: left;
+    width: 250px;
+}
+footer .cont .box h2{
+     width: 150px;
+     height: 30px;
+     font-size: 28px;
+     line-height: 1.5em;
+     margin-bottom: 75px;
+}
+footer .cont .box .box1{
+    width: 300px;
+    height: 190px;
+    padding: 20px;
+    border: 1px solid gray;
+    background:rgba(255, 255, 255, 0.5);
+    position: absolute;
+
+}
+footer .cont .box .box1 p{
+    font-size: 18px;
+}
+footer .cont .box .box1 button{
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: aliceblue;
+    font: normal 18px Arial, Helvetica, sans-serif; 
+    border: none;
+    margin-top: 30px;
+}
+footer .cont .box2{
+    width: 650px;
+    height: 435px;
+    
+}
+footer .cont .box3{
+    float: right;
+    width: 260px;
+    height: 435px;
+}
+footer .cont .box3 .box4{
+    width: 258px;
+    height: 90px;
+    padding: 40px 0;
+    border: 1px solid #07cbc9;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+}
+
+footer .cont .box3 .box4 h2{
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+footer .cont .box3 .box4 .line{
+    width: 60px;
+    height: 3px;
+    background-color: #07cbc9;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+}
+footer .cont .box3 .box4 p{
+    margin-top: 20px;
+
+}
